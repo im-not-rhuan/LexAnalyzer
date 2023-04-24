@@ -5,13 +5,13 @@ inicio
  enquanto v <> 0 faca
  inicio
  leia ( v ) ; {leia o valor inicial}
- leia ( juro) ; {leia a taxa de juros }
+ leia ( juro ) ; {leia a taxa de juros }
  leia ( max ) ; { Leia o periodo };
  valor := 1 ;
  i := 1 ;
  enquanto i <= max { (1+juro) elevado a n } faca
  inicio
- valor := valor * ( 1 + juro) ;
+ valor := valor * ( 1 + juro ) ;
  i := i + 1 ;
  fim
  escreva ( valor ) ;
